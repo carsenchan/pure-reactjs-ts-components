@@ -1,0 +1,8 @@
+# node modules
+node_modules
+.idea
+
+yarn-error.log
+
+# build folder
+dist
