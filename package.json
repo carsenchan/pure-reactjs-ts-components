@@ -1,8 +1,10 @@
 {
   "name": "pure-react-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is pure React.js components with Typescript",
-  "main": "index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
@@ -15,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/carsenchan/pure-reactjs-ts-components.git"
+    "url": "git+https://github.com/carsenchan/pure-reactjs-ts-components.git"
   },
   "keywords": [
     "react",
